@@ -6,7 +6,7 @@
   * [Jupyter](jupyter.md)
   * [Tensorflow](tensorflow.md)
   * [OpenCV](opencv.md)
-  * [Tensorflow Serving](tensoflowserving.md)
+  * [Tensorflow Serving](tensorflowserving.md)
   * [Google Cloud Platform SDK](gcloud_sdk.md)
 * Others
   * [CRLF to LF](CRLF2LF.md)
