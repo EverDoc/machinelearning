@@ -1,3 +1,13 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* Install and Configuration
+  * [Ubuntu Initial](ubuntu_initial.md)
+  * [Python](python.md)
+  * [Jupyter](jupyter.md)
+  * [Tensorflow](tensorflow.md)
+  * [OpenCV](opencv.md)
+  * [Tensorflow Serving](tensoflowserving.md)
+  * [Google Cloud Platform SDK](gcloud_sdk.md)
+* Others
+  * [CRLF to LF](CRLF2LF.md)
+  * [Face Recognization Architecture](Architecture.md)

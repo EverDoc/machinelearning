@@ -1,3 +1,3 @@
-# My Awesome Book
+# Machine Learning Notes
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Writes down all I have installed and built.
