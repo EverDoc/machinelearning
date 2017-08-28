@@ -1,26 +1,8 @@
 # Initial TensorFlow Serving
 
-## Install Bazel
+## Prerequisites
 
-### Using Bazel custom APT repository (recommended)
-
-1. Add Bazel distribution URI as a package source (one time setup)
-    ```bash
-    echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
-    curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
-    ```
-    If you want to install the testing version of Bazel, replace stable with testing.
-
-1. Install and update Bazel
-    ```bash
-    sudo apt-get update && sudo apt-get install bazel
-    ```
-    Once installed, you can upgrade to a newer version of Bazel with:
-    ```bash
-    sudo apt-get upgrade bazel
-    ```
-
-### Install using binary installer
+### Bazel
 
 The binary installers are on Bazel's [GitHub releases page](https://github.com/bazelbuild/bazel/releases).
 
@@ -59,7 +41,7 @@ The installer contains the Bazel binary and the required JDK. Some additional li
     sudo apt install --upgrade bazel
     ```
 
-## Install gRPC
+### Install gRPC
 
 You can find the installation instructions here.
 
@@ -69,7 +51,7 @@ You can find the installation instructions here.
 sudo pip install grpcio
 ```
 
-## Install Packages
+### Install Packages
 
 To install TensorFlow Serving dependencies, execute the following:
 
@@ -92,28 +74,34 @@ sudo apt update && sudo apt install -y --no-install-recommends \
         zlib1g-dev
 ```
 
-## Clone TansorFlow Serving
+### TensorFlow Serving Python API PIP package
 
-### clone
+```bash
+pip install tensorflow-serving-api
+```
+
+## Installing TansorFlow Serving from source
+
+### Git clone
 
 ```bash
 git clone --recurse-submodules https://github.com/tensorflow/serving
 ```
 
-### config
+### Install prerequisites
 
 ```bash
-cd tensorflow
+cd serving/tensorflow
 ./configure
 cd ..
 ```
 
-### build
+### Build
 
 To build the entire tree, execute:
 
 ```bash
-bazel build tensorflow_serving/...
+bazel build -c opt tensorflow_serving/...
 ```
 
 Binaries are placed in the bazel-bin directory, and can be run using a command like:
@@ -125,5 +113,5 @@ bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server
 To test your installation, execute:
 
 ```bash
-bazel test tensorflow_serving/...
+bazel test -c opt tensorflow_serving/...
 ```
