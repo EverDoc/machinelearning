@@ -11,3 +11,4 @@
 * Others
   * [CRLF to LF](CRLF2LF.md)
   * [Face Recognization Architecture](Architecture.md)
+  * [How to connect to github with ssh](ssh.md)
