@@ -2,13 +2,6 @@
 
 Youdao is a popular translation application for Chinese/English.
 
-## Prerequisites
-
-* PyQt5
-    ```bash
-    sudo pip3 install --no-cache-dir PyQt5 
-    ```
-
 ## Download pacakge
 
 <http://cidian.youdao.com/multi.html>
@@ -21,5 +14,8 @@ Youdao is a popular translation application for Chinese/English.
 
 ```bash
 cd
-sudo dpkg -i Downloads/youdao*
+sudo dpkg -i Downloads/youdao-dict_1.1.0-0-ubuntu_amd64.deb
+# install dependencies
+# <https://unix.stackexchange.com/questions/159094/how-to-install-a-deb-file-by-dpkg-i-or-by-apt/159114>
+sudo apt install -f 
 ```
