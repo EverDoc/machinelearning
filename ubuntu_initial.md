@@ -52,7 +52,13 @@ sudo apt install -y --no-install-recommends build-essential cmake
 ## OpenBLAS
 
 ```bash
-sudo apt-get install -y --no-install-recommends libopenblas-dev
+sudo apt install -y --no-install-recommends libopenblas-dev
+```
+
+## Install FlashPLayer
+
+```bash
+sudo apt install -y --no-install-recommends flashplugin-installer
 ```
 
 ## Install Chrome

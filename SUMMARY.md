@@ -2,6 +2,8 @@
 
 * Install and Configuration
   * [Ubuntu Initial](ubuntu_initial.md)
+    * Sougou (comming)
+    * [Youdao](youdao.md)
   * [Python](python.md)
   * [Jupyter](jupyter.md)
   * [Tensorflow](tensorflow.md)
