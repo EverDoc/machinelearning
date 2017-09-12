@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo apt install -y --no-install-recommends \
     libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev \
     libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libgtk2.0-dev \

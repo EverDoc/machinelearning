@@ -2,7 +2,7 @@
 
 ## Overall
 
-![overall](overall.png)
+![overall](images/overall.png)
 
 * Data: pubfig <http://www.cs.columbia.edu/CAVE/databases/pubfig/>
 * Tensorflow: Machine Learning Lib
@@ -15,7 +15,7 @@
 
 The PubFig database is a large, real-world face dataset consisting of 58,797 images of 200 people collected from the internet.
 
-![pubfig](pubfig.png)
+![pubfig](images/pubfig.png)
 
 ### Output
 
@@ -34,13 +34,13 @@ gcloud beta ml local train --package-path=pubfig_export --module-name=pubfig_exp
 
 ### Output
 
-![tensorflow](tensorflow.png)
+![tensorflow](images/tensorflow.png)
 
 ## Tensorflow Serving
 
 TensorFlow Serving is a flexible, high-performance serving system for machine learning models, designed for production environments.
 
-![tf_diagram](tf_diagram.svg)
+![tf_diagram](images/tf_diagram.svg)
 
 ```bash
 bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server --port=9000 --model_name=pubfig --model_base_path=/home/bkwang/tf_face/sample_run/models
@@ -50,7 +50,7 @@ bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server --port=9000 -
 
 ## Web Interface
 
-![webinterface](webinterface.png)
+![webinterface](images/webinterface.png)
 
 ```bash
 bazel-bin/tf_models/tf_face/tf/web/predict_serving

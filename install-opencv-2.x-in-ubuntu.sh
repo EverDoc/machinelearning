@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # install dependencies
 sudo apt update
 sudo apt install -y --no-install-recommends build-essential cmake \

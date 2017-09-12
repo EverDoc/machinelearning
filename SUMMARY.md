@@ -8,6 +8,7 @@
   * [Jupyter](jupyter.md)
   * [Tensorflow](tensorflow.md)
   * [OpenCV](opencv.md)
+  * [Docker](docker.md)
   * [Tensorflow Serving](tensorflowserving.md)
   * [Google Cloud Platform SDK](gcloud_sdk.md)
 * Others
