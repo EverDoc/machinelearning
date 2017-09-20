@@ -63,6 +63,12 @@ sudo vim /etc/vsftpd.conf
     * `rsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem`
     * `rsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key`
 
+Restart to apply any changes
+
+```bash
+sudo service vsftpd restart
+```
+
 ## Developer Essentials
 
 ```bash
