@@ -4,6 +4,7 @@
   * [Ubuntu Initial](ubuntu_initial.md)
     * Sougou (comming)
     * [Youdao](youdao.md)
+    * [Filezilla](filezilla.md)
   * [Python](python.md)
   * [Jupyter](jupyter.md)
   * [Tensorflow](tensorflow.md)
