@@ -5,6 +5,7 @@
     * Sougou (comming)
     * [Youdao](youdao.md)
     * [Filezilla](filezilla.md)
+    * [SSHFS](sshfs.md)
   * [Python](python.md)
   * [Jupyter](jupyter.md)
   * [Tensorflow](tensorflow.md)
