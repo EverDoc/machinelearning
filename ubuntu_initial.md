@@ -1,5 +1,18 @@
 # Ubuntu Initial
 
+## Aliyun Sources.list
+
+```bash
+# 1. backup the sources.list
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.org
+
+# 2. change aliyun sources
+sudo sed -i 's/cn.archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+
+# 3. update apt sources
+sudo apt update
+```
+
 ## Update apt index
 
 ```bash
