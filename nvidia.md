@@ -37,11 +37,31 @@ on the Internet for the corrent model name.
 
 ## Instal Nvidia Driver
 
+### Install using Software & Updates
+
+<https://linuxhint.com/install-nvidia-drivers-on-ubuntu/>
+
+1. Launch **Software & Updates**
+1. Make sure all of theseboxes are marked  
+  ![nvidia-driver-download_paramenters](images/nvidia_dirver_download_parameters0.png)
+1. Swtich to **Additional Drivers** Tab
+1. Change the **Nvidia Corporation** from **using X.Org X server** (open source) to **using Nvidia binary driver**  
+  ![nvidia-driver-download_paramenters](images/nvidia_dirver_download_parameters.png)
+1. Click **Apply Changes** and wait for a while till it's complete.
+1. When the installation is complete 
+  _ a green mark right beside **vidia Corporation**
+  _ *1 proprietary driver in use* in the bottom
+  ![nvidia-driver-install_complete](images/nvidia_dirver_install_complete0.png)
+1. Reboot  
+  ![nvidia-driver-install_complete](images/nvidia_dirver_install_complete0.png)
+
 ### Install using package
 
 <http://www.nvidia.com/Download/driverResults.aspx/118290/en-us>
 
 ![nvidia-driver-download](images/nvidia_dirver_download.png)
+
+1. NOT RECOMMAND
 
 ### Install using PPA 
 
